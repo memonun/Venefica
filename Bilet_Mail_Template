@@ -60,10 +60,13 @@
         <!-- İçerik -->
         <div class="content">
             <p>Merhaba [Adınız],</p>
-            <p>Biletiniz başarıyla oluşturuldu! Bu harika etkinlikte bizimle olacağınız için çok heyecanlıyız.</p>
+            <p>Biletiniz başarıyla oluşturuldu! 🎉
+Bu heyecan verici etkinlikte bizimle olacağınız için sabırsızlanıyoruz. Harika bir deneyim sizi bekliyor!
+</p>
             
             <!-- Playlist -->
-            <p>Sizin için hazırladığımız özel Spotify çalma listesini dinlemek için <a href="YOUR_SPOTIFY_PLAYLIST_URL">buraya tıklayın</a>.</p>
+            <p>Hazırlıklarınızı keyifli hale getirmek için sizin için özel bir Spotify çalma listesi hazırladık. Bu liste, etkinlik havasını önceden hissetmenizi sağlayacak. Dinlemek için hemen tıklayın: [Spotify Playlist Linki] 🎶
+</a>.</p>
 
             <!-- Bilet Bilgileri -->
             <div class="cta">
@@ -77,7 +80,8 @@
         <!-- Footer -->
         <div class="footer">
             <p>Etkinlik Ekibi © 2025</p>
-            <p>Herhangi bir sorun yaşarsanız bize ulaşın: <a href="mailto:info@event.com">info@event.com</a></p>
+            <p>Herhangi bir sorunuz olursa veya yardım isterseniz, bize bu e-posta:<a href="mailto:info@event.com">info@event.com</a> üzerinden ulaşabilirsiniz. Sizi orada görmek için sabırsızlanıyoruz!
+</p>
         </div>
     </div>
 </body>
