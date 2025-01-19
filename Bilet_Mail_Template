@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilet Onayı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .cta {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Logo -->
+        <div class="header">
+            <img src="YOUR_LOGO_URL" alt="Logo" style="max-width: 150px;">
+            <h1>Etkinlik Biletiniz Hazır!</h1>
+        </div>
+
+        <!-- İçerik -->
+        <div class="content">
+            <p>Merhaba [Adınız],</p>
+            <p>Biletiniz başarıyla oluşturuldu! Bu harika etkinlikte bizimle olacağınız için çok heyecanlıyız.</p>
+            
+            <!-- Playlist -->
+            <p>Sizin için hazırladığımız özel Spotify çalma listesini dinlemek için <a href="YOUR_SPOTIFY_PLAYLIST_URL">buraya tıklayın</a>.</p>
+
+            <!-- Bilet Bilgileri -->
+            <div class="cta">
+                <a href="YOUR_TICKET_URL">Bilet Bilgileriniz</a>
+            </div>
+
+            <!-- Etkinlik Görseli -->
+            <img src="YOUR_EVENT_IMAGE_URL" alt="Etkinlik Görseli" style="width: 100%; border-radius: 8px;">
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Etkinlik Ekibi © 2025</p>
+            <p>Herhangi bir sorun yaşarsanız bize ulaşın: <a href="mailto:info@event.com">info@event.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
