@@ -59,13 +59,17 @@
 
         <!-- İçerik -->
         <div class="content">
-            <p>Merhaba [Adınız],</p>
-            <p>Biletiniz başarıyla oluşturuldu! 🎉
-Bu heyecan verici etkinlikte bizimle olacağınız için sabırsızlanıyoruz. Harika bir deneyim sizi bekliyor!
-</p>
+           
+            <p style="line-height: 1.8;">Biletiniz başarıyla oluşturuldu! 🎉</p>
+           
+            <p >Bu heyecan verici etkinlikte bizimle olacağınız için sabırsızlanıyoruz. Harika bir deneyim sizi bekliyor!</p>
+          <br></br>
             
             <!-- Playlist -->
-            <p>Hazırlıklarınızı keyifli hale getirmek için sizin için özel bir Spotify çalma listesi hazırladık. Bu liste, etkinlik havasını önceden hissetmenizi sağlayacak. Dinlemek için hemen tıklayın: [Spotify Playlist Linki] 🎶
+
+            <p>Hazırlıklarınızı keyifli hale getirmek için sizin için özel bir Spotify çalma listesi hazırladık. Bu liste, etkinlik havasını önceden hissetmenizi sağlayacak. Dinlemek için hemen tıklayın:   <a href="https://open.spotify.com/playlist/12345" target="_blank" style="color: #1DB954; text-decoration: none; font-weight: bold;">
+        <i>Urban Tastes</i>
+    </a>. 🎶
 </a>.</p>
 
             <!-- Bilet Bilgileri -->
@@ -79,7 +83,7 @@ Bu heyecan verici etkinlikte bizimle olacağınız için sabırsızlanıyoruz. H
 
         <!-- Footer -->
         <div class="footer">
-            <p>Etkinlik Ekibi © 2025</p>
+            <p>Medusa Project©2025</p>
             <p>Herhangi bir sorunuz olursa veya yardım isterseniz, bize bu e-posta:<a href="mailto:info@event.com">info@event.com</a> üzerinden ulaşabilirsiniz. Sizi orada görmek için sabırsızlanıyoruz!
 </p>
         </div>
