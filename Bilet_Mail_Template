@@ -1,83 +1,85 @@
-
-1
 <title>Bilet Onayı</title>
-2
     <style>
-3
         body {
-4
             font-family: Arial, sans-serif;
-5
             margin: 0;
-6
             padding: 0;
-7
             background-color: white;
-8
             color: #333;
-9
         }
-10
         .email-container {
-11
             max-width: 600px;
-12
             margin: 20px auto;
-13
             background: white;
-14
             border-radius: 8px;
-15
             overflow: hidden;
-16
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-17
         }
-18
         .header {
-19
             background-color: white;
-20
             color: black;
-21
             padding: 20px;
-22
             text-align: center;
-23
         }
-24
         .content {
-25
             padding: 20px;
-26
         }
-27
         .cta {
-28
             display: block;
-29
             text-align: center;
-30
             margin: 20px 0;
-31
         }
-32
         .cta a {
-33
             background-color: #4CAF50;
-34
             color: white;
-35
             text-decoration: none;
-36
             padding: 10px 20px;
-37
             border-radius: 5px;
-38
         }
-39
         .footer {
-40
             text-align: center;
-41
             padding: 10px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+
+
+    <div class="email-container">
+        <!-- Logo -->
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/memonun/Venefica/refs/heads/main/logo_temp.webp" alt="Logo" style="max-width: 150px;">
+            <h1>Etkinlik Biletiniz Hazır!</h1>
+        </div>
+
+        <!-- İçerik -->
+        <div class="content">
+           
+            <p style="line-height: 1.8;">Biletiniz başarıyla oluşturuldu! 🎉</p>
+           
+            <p>Bu heyecan verici etkinlikte bizimle olacağınız için sabırsızlanıyoruz. Harika bir deneyim sizi bekliyor!</p>
+          <br><br>
+            
+            <!-- Playlist -->
+
+            <p>Hazırlıklarınızı keyifli hale getirmek için sizin için özel bir Spotify çalma listesi hazırladık. Bu liste, etkinlik havasını önceden hissetmenizi sağlayacak. Dinlemek için hemen tıklayın:   <a href="https://open.spotify.com/playlist/12345" target="_blank" style="color: #1DB954; text-decoration: none; font-weight: bold;">
+        <i>Urban Tastes</i>
+    </a>. 🎶
+.</p>
+
+            <!-- Bilet Bilgileri -->
+            <div class="cta">
+                <a href="YOUR_TICKET_URL">Bilet Bilgileriniz</a>
+            </div>
+
+            <!-- Etkinlik Görseli -->
+            <img src="https://raw.githubusercontent.com/memonun/Venefica/refs/heads/main/urban_tastes_temsili.webp" alt="Etkinlik Görseli" style="width: 100%; border-radius: 8px;">
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Medusa Project©2025</p>
+            <p>Herhangi bir sorunuz olursa veya yardım isterseniz, bize bu e-posta:<a href="mailto:info@event.com">info@event.com</a> üzerinden ulaşabilirsiniz. Sizi orada görmek için sabırsızlanıyoruz!
+</p>
+        </div>
+    </div>
